@@ -60,6 +60,25 @@ function getActivitiesInCategory(fullListOfActivities, category) {
 
     return result;
 }
+//-----------------------------------------------------------------------
+
+
+function getActivitiesInCategory(fullListOfActivities, category) {
+
+    if (fullListOfActivities.category == category) {
+        result.push()
+    }
+    else{
+        return false;
+    }
+}
+
+let getActivities = activities.filter(getActivitiesInCategory);
+
+if(getActivities.length > 0) {
+    console,log(getActivities);
+}
+
 //this function shows a empty array that would be filled using the new Option which is the "PLease select your activity!" --
 // -- and added to the intital options to make the user choose an activity to display its information.
 //it then uses the "thisActivity" referenced in the earlier function and uses the new Option to use the .name --
